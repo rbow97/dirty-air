@@ -1,25 +1,40 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.css'
+
+const Logo = () => (
+  <div className="logo">
+    <p>LET'S</p>
+    <p>TALK</p>
+    <p>
+      DIRTY<span>(air).</span>
+    </p>
+  </div>
+)
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+      {Logo()}
+      <h1 className="header">Get involved</h1>
+      <div className="links">
         <a
-          className="App-link"
-          href="https://reactjs.org"
+          href="https://hello.blf.org.uk/page/98488/petition/1?ea.tracking.id=clean_air_hub&_ga=2.40460576.34893244.1646767760-380404403.1646393265&_gac=1.183273044.1646394751.CjwKCAiAjoeRBhAJEiwAYY3nDK2b9OxXeHuvUiLawIva3761ZzTYOYb1uXW4tBKOodnGQKuu8ayfDxoC134QAvD_BwE∑"
           target="_blank"
-          rel="noopener noreferrer"
+          rel="noreferrer"
         >
-          Learn React
+          British Lung Foundation petition
         </a>
-      </header>
+        <a href="#">British Lung Go Fund Me</a>
+        <a
+          href="https://aqicn.org/city/london/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Air Quality Index
+        </a>
+        <a href="#">Tweet The Mayor of London</a>
+      </div>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
