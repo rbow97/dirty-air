@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f765647c.css",
+    "main.js": "/static/js/main.711009d7.js",
+    "static/js/787.12fe45f7.chunk.js": "/static/js/787.12fe45f7.chunk.js",
+    "static/media/Futura-Bold.ttf": "/static/media/Futura-Bold.bb156132a191d4d55aa3.ttf",
+    "index.html": "/index.html",
+    "main.f765647c.css.map": "/static/css/main.f765647c.css.map",
+    "main.711009d7.js.map": "/static/js/main.711009d7.js.map",
+    "787.12fe45f7.chunk.js.map": "/static/js/787.12fe45f7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f765647c.css",
+    "static/js/main.711009d7.js"
+  ]
+}
